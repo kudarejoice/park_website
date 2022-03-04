@@ -1,0 +1,88 @@
+/* body{
+    background-color: rgb(175, 143, 106);
+} */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(187, 157, 121);
+    background-image: url('/images/kevin.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+body ::backdrop{
+    filter: blur(5px);
+    -webkit-filter: blur(5px); 
+}
+.bg-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-item{
+    display:flex;
+    justify-content: center;
+    padding: 5px;
+}
+.nav-link{
+    text-decoration: none;
+}
+.title{
+    font-family: "Helvetica Neue";
+    text-align: center;
+    background: none;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    font-family: "Helvetica Neue";
+    font-weight: 400;
+    top: 50;
+    background: none;
+    text-align: center;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 50;
+}
+.col-lg-4{
+    padding: 10px;
+}
+#photos{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(32, 10, 43, 0.568); */
+    align-items: center;
+    padding: 20px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+    border-radius: 6px;
+}
+.col-lg-6{
+    height: 10%;
+    width: 30%;
+    padding: 10px;
+    color:antiquewhite;
+}
+.col-lg-6 a{
+    text-decoration: none;
+    color:rgb(160, 226, 160);
+}
+.col-lg-6:hover{
+    box-shadow: 0 0 10px rgb(60, 60, 95);
+}
+.card{
+    background-color: rgb(75, 119, 92);
+}
